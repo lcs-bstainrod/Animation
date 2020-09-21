@@ -45,8 +45,8 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Draw axis with a scale
-canvas.drawAxes(withScale: true, by: 50)
+// Replace this comment with your first comment – what is the goal of the code you're about to write?
+canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
 
 /*:
  ## Show the Assistant Editor
@@ -63,3 +63,10 @@ canvas.drawAxes(withScale: true, by: 50)
  
  ![source_control](source-control.png "Source Control")
  */
+// draw line of circles
+For y in stride(from: 0,    to: 500,    by: 50)
+for x in stride(from: 0,  to: 500,  by: 50) {
+    
+    x
+    canvas.drawEllipse(at:  Point(x: x + 25, y: 25), width: 50, height: 50)
+}

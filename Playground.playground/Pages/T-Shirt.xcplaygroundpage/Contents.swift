@@ -16,8 +16,8 @@
  
  Set the size of your desired canvas by adjusting the constants on lines 19 and 20.
  */
-let preferredWidth = 500
-let preferredHeight = 500
+let preferredWidth = 600
+let preferredHeight = 600
 /*:
  ## Required code
  
@@ -45,8 +45,25 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Draw axis with a scale
-canvas.drawAxes(withScale: true, by: 50)
+// Replace this comment with your first comment – what is the goal of the code you're about to write?
+
+canvas.drawLine(from: Point(x: 300, y: 600), to: Point(x: 200, y: 475 ))
+canvas.drawLine(from: Point(x: 200, y: 475), to: Point(x: 0, y: 325 ))
+canvas.drawLine(from: Point(x: 0, y: 325), to: Point(x: 175, y: 200 ))
+canvas.drawLine(from: Point(x: 175, y: 200), to: Point(x: 300, y: 0 ))
+canvas.drawLine(from: Point(x: 300, y: 0), to: Point(x: 425, y: 200 ))
+canvas.drawLine(from: Point(x: 425, y: 200), to: Point(x: 600, y: 325 ))
+canvas.drawLine(from: Point(x: 600, y: 325), to: Point(x: 425, y: 450 ))
+canvas.drawLine(from: Point(x: 425, y: 450), to: Point(x: 300, y: 600 ))
+//done outline
+canvas.drawLine(from: Point(x: 295, y: 6), to: Point(x: 295, y: 594 ))
+canvas.drawLine(from: Point(x: 305, y: 6), to: Point(x: 305, y: 594 ))
+//Done middle lines
+canvas.drawLine(from: Point(x: 305, y: 525), to: Point(x: 362, y: 525 ))
+canvas.drawLine(from: Point(x: 362, y: 525), to: Point(x: 362, y: 450 ))
+canvas.drawLine(from: Point(x: 362, y: 450), to: Point(x: 305, y: 450))
+canvas.drawAxes(withScale: true, by: 25)
+//Top right box done
 
 /*:
  ## Show the Assistant Editor
