@@ -30,7 +30,7 @@ import PlaygroundSupport
 import CanvasGraphics
 
 // Create canvas
-let canvas = Canvas(width: preferredWidth, height: preferredHeight)
+let canvas = Canvas(width: preferredWidth, height: preferredHeight, quality: .Ultra)
 
 // Show the canvas in the playground's live view
 PlaygroundPage.current.liveView = canvas
@@ -45,10 +45,10 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-
-canvas.drawLine(from: Point(x: 300, y: 600), to: Point(x: 200, y: 475 ))
-canvas.drawLine(from: Point(x: 200, y: 475), to: Point(x: 0, y: 325 ))
+//T-shirt design
+canvas.defaultLineWidth = 5
+canvas.drawLine(from: Point(x: 300, y: 600), to: Point(x: 200, y: 475 ), capStyle: .round)
+canvas.drawLine(from: Point(x: 200, y: 475), to: Point(x: 0, y: 325 ), capStyle: .round)
 canvas.drawLine(from: Point(x: 0, y: 325), to: Point(x: 175, y: 200 ))
 canvas.drawLine(from: Point(x: 175, y: 200), to: Point(x: 300, y: 0 ))
 canvas.drawLine(from: Point(x: 300, y: 0), to: Point(x: 425, y: 200 ))
@@ -56,14 +56,72 @@ canvas.drawLine(from: Point(x: 425, y: 200), to: Point(x: 600, y: 325 ))
 canvas.drawLine(from: Point(x: 600, y: 325), to: Point(x: 425, y: 450 ))
 canvas.drawLine(from: Point(x: 425, y: 450), to: Point(x: 300, y: 600 ))
 //done outline
-canvas.drawLine(from: Point(x: 295, y: 6), to: Point(x: 295, y: 594 ))
-canvas.drawLine(from: Point(x: 305, y: 6), to: Point(x: 305, y: 594 ))
+canvas.drawLine(from: Point(x: 295, y: 8), to: Point(x: 295, y: 594 ), capStyle: .round)
+canvas.drawLine(from: Point(x: 305, y: 8), to: Point(x: 305, y: 594 ), capStyle: .round)
 //Done middle lines
 canvas.drawLine(from: Point(x: 305, y: 525), to: Point(x: 362, y: 525 ))
 canvas.drawLine(from: Point(x: 362, y: 525), to: Point(x: 362, y: 450 ))
 canvas.drawLine(from: Point(x: 362, y: 450), to: Point(x: 305, y: 450))
-canvas.drawAxes(withScale: true, by: 25)
-//Top right box done
+canvas.drawLine(from: Point(x: 275, y: 475), to: Point(x: 295, y: 475))
+canvas.drawLine(from: Point(x: 275, y: 475), to: Point(x: 275, y: 400))
+canvas.drawLine(from: Point(x: 275, y: 400), to: Point(x: 295, y: 400))
+canvas.drawLine(from: Point(x: 67, y: 375), to: Point(x: 530, y: 375))
+canvas.drawLine(from: Point(x:71 , y:275 ), to: Point(x:530 , y:275 ))
+canvas.drawLine(from: Point(x: 305, y: 275), to: Point(x: 305, y: 295))
+canvas.drawLine(from: Point(x: 305, y: 275), to: Point(x: 425, y: 200))
+canvas.drawLine(from: Point(x: 525, y: 375), to: Point(x: 525, y: 275))
+canvas.drawLine(from: Point(x: 175, y: 200), to: Point(x: 175, y: 455))
+canvas.drawLine(from: Point(x: 425, y: 375), to: Point(x: 425, y: 450))
+
+//shape
+canvas.drawLine(from: Point(x: 450, y: 375), to: Point(x: 450, y: 325))
+canvas.drawLine(from: Point(x: 450, y: 325), to: Point(x: 525, y: 325))
+//shape
+canvas.drawLine(from: Point(x: 475, y: 275), to: Point(x: 475, y: 235))
+//shape
+canvas.drawLine(from: Point(x: 475, y: 275), to: Point(x: 475, y: 300))
+canvas.drawLine(from: Point(x: 475, y: 300), to: Point(x: 350, y: 300))
+canvas.drawLine(from: Point(x: 350, y: 300), to: Point(x: 350, y: 275))
+//shape
+canvas.drawLine(from: Point(x: 350, y: 375), to: Point(x: 305, y: 375))
+canvas.drawLine(from: Point(x: 350, y: 375), to: Point(x: 350, y: 325))
+canvas.drawLine(from: Point(x: 305, y: 375), to: Point(x: 305, y: 325))
+canvas.drawLine(from: Point(x: 305, y: 325), to: Point(x: 350, y: 325))
+//shape
+canvas.drawLine(from: Point(x: 294, y: 100), to: Point(x: 238, y: 100))
+//shape
+canvas.drawLine(from: Point(x: 294, y: 125), to: Point(x: 275, y: 125))
+canvas.drawLine(from: Point(x: 275, y: 125), to: Point(x: 275, y: 275))
+//shape
+canvas.drawLine(from: Point(x: 305, y: 175), to: Point(x: 350, y: 175))
+canvas.drawLine(from: Point(x: 350, y: 175), to: Point(x: 350, y: 100))
+canvas.drawLine(from: Point(x: 350, y: 100), to: Point(x: 305, y: 100))
+//shape
+canvas.drawLine(from: Point(x: 133, y: 425), to: Point(x: 175, y: 425))
+canvas.drawLine(from: Point(x: 175, y: 425), to: Point(x: 175, y:455 ))
+//shape
+canvas.drawLine(from: Point(x: 175, y: 400), to: Point(x: 225, y: 400))
+canvas.drawLine(from: Point(x: 225, y: 400), to: Point(x: 225, y:375 ))
+canvas.drawLine(from: Point(x: 450, y: 375), to: Point(x: 450, y: 325))
+//shape
+canvas.drawLine(from: Point(x:175 , y: 300), to: Point(x: 225, y: 300))
+canvas.drawLine(from: Point(x: 225, y: 300), to: Point(x: 225, y: 275))
+//shape
+canvas.drawLine(from: Point(x: 175, y: 225), to: Point(x: 141, y: 225))
+//Shape
+canvas.drawLine(from: Point(x: 125, y: 275), to: Point(x: 125, y: 250))
+canvas.drawLine(from: Point(x: 125, y: 250), to: Point(x: 175, y: 250))
+//shape
+canvas.drawLine(from: Point(x: 100, y: 375), to: Point(x: 100, y: 325))
+canvas.drawLine(from: Point(x: 100, y: 325), to: Point(x: 175, y: 325))
+//shape
+canvas.drawLine(from: Point(x: 75, y: 375), to: Point(x: 75, y: 275))
+//shape
+canvas.drawLine(from: Point(x: 350, y: 375), to: Point(x: 350, y: 400))
+canvas.drawLine(from: Point(x: 350, y: 400), to: Point(x: 425, y: 400))
+canvas.drawLine(from: Point(x: 425, y: 400), to: Point(x: 425, y: 375))
+canvas.drawLine(from: Point(x: 450, y: 375), to: Point(x: 450, y: 325))
+canvas.copyToClipboard()
 
 /*:
  ## Show the Assistant Editor
