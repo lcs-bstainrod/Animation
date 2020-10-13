@@ -48,6 +48,7 @@ PlaygroundPage.current.liveView = canvas
 // Draw axis with a scale
 canvas.drawAxes(withScale: true, by: 50)
 
+
 /*:
  ## Show the Assistant Editor
  Don't see any results?
@@ -63,15 +64,3 @@ canvas.drawAxes(withScale: true, by: 50)
  
  ![source_control](source-control.png "Source Control")
  */
-
-// The pink Poster (the runaways)
-let pink = Color(hue: 338, saturation: 83, brightness: 89, alpha: 100)
-let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
-let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
-canvas.drawAxes(withScale: true, by: 50)
-//pink background
-canvas.fillColor = pink
-canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
-//black bx 1
-canvas.fillColor = black
-canvas.drawRectangle(at: Point(x:200, y:200),  width: 400, height: 400, anchoredBy: AnchorPosition.centre, borderWidth: 1)
