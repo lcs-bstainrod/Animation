@@ -51,4 +51,17 @@ canvas.drawLine(from: Point(x: 400 - step, y: 400 - step), to: Point(x: 400, y: 
 }
 
 
+// text
 
+canvas.textColor = beige
+canvas.drawText(message: "the runaways", at: Point(x: 25, y: 420), size: 50, kerning: 0)
+canvas.textColor = black
+canvas.drawText(message: "Friday ", at: Point(x: 25, y: 550), size: 10, kerning: 0)
+canvas.drawText(message: "august 19 1977", at: Point(x: 25, y: 530), size: 10, kerning: 0)
+canvas.drawText(message: "tickets 4.50$", at: Point(x: 25, y: 510), size: 10, kerning: 0)
+canvas.drawText(message: "with", at: Point(x: 120, y: 550), size: 10, kerning: 0)
+canvas.drawText(message: "special guests", at: Point(x: 120, y: 530), size: 10, kerning: 0)
+canvas.drawText(message: "wolf gang", at: Point(x: 120, y: 510), size: 10, kerning: 0)
+canvas.drawText(message: "at ben h. lewis hall", at: Point(x: 300, y: 550), size: 10, kerning: 0)
+canvas.drawText(message: "3443 orange st.", at: Point(x: 300, y: 530), size: 10, kerning: 0)
+canvas.drawText(message: "riverside, california", at: Point(x: 300, y: 510), size: 10, kerning: 0)
