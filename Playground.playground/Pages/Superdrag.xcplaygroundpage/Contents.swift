@@ -122,4 +122,4 @@ canvas.drawText(message: "no age limit", at: Point(x: 103, y: 20), size: 10, ker
 canvas.drawText(message: "at brick by brick", at: Point(x: 300, y: 50), size: 10, kerning: 0)
 canvas.drawText(message: "1130 beunos avenue", at: Point(x: 300, y: 35), size: 10, kerning: 0)
 canvas.drawText(message: "san diego, ca", at: Point(x: 300, y: 20), size: 10, kerning: 0)
-canvas.drawAxes(withScale: true, by: 50)
+
