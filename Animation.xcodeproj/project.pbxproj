@@ -28,6 +28,10 @@
 		81A9FADB219A151B003E6502 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADA219A151B003E6502 /* Helpers.swift */; };
 		81A9FADD219A156E003E6502 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADC219A156E003E6502 /* Color.swift */; };
 		81F935042476B0E000CD75D8 /* Tortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F935032476B0E000CD75D8 /* Tortoise.swift */; };
+		A24652B52539D4A3001807EF /* MovingSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652B42539D4A3001807EF /* MovingSquare.swift */; };
+		A24652B8253B33C7001807EF /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652B7253B33C7001807EF /* Spots.swift */; };
+		A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */; };
+		A24652BF253F458C001807EF /* FiveCirclestwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652BE253F458C001807EF /* FiveCirclestwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +116,10 @@
 		81DBFC2322E96442005EDE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81DBFC2422E96442005EDE85 /* .tgz */ = {isa = PBXFileReference; lastKnownFileType = text; path = .tgz; sourceTree = "<group>"; };
 		81F935032476B0E000CD75D8 /* Tortoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortoise.swift; sourceTree = "<group>"; };
+		A24652B42539D4A3001807EF /* MovingSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSquare.swift; sourceTree = "<group>"; };
+		A24652B7253B33C7001807EF /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FiveCirclesattempt#1.swift"; sourceTree = "<group>"; };
+		A24652BE253F458C001807EF /* FiveCirclestwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveCirclestwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,9 +169,13 @@
 				81064A1B1C132DA2007ED524 /* Sketch.swift */,
 				81064A1A1C132D69007ED524 /* Support */,
 				814ADAF8248EB34900F80486 /* BasicSketch.swift */,
+				A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */,
 				814ADAF4248EAB6A00F80486 /* TurtleSketch.swift */,
 				814ADAFA248EB45F00F80486 /* AudioInputSketch.swift */,
+				A24652BE253F458C001807EF /* FiveCirclestwo.swift */,
+				A24652B42539D4A3001807EF /* MovingSquare.swift */,
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
+				A24652B7253B33C7001807EF /* Spots.swift */,
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
 			);
 			path = Animation;
@@ -480,10 +492,14 @@
 			files = (
 				81064A0C1C130A10007ED524 /* ViewController.swift in Sources */,
 				81064A1C1C132DA2007ED524 /* Sketch.swift in Sources */,
+				A24652BF253F458C001807EF /* FiveCirclestwo.swift in Sources */,
 				81064A0A1C130A10007ED524 /* AppDelegate.swift in Sources */,
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
+				A24652B52539D4A3001807EF /* MovingSquare.swift in Sources */,
 				814ADAF9248EB34900F80486 /* BasicSketch.swift in Sources */,
+				A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */,
 				814ADAFB248EB45F00F80486 /* AudioInputSketch.swift in Sources */,
+				A24652B8253B33C7001807EF /* Spots.swift in Sources */,
 				814ADAF1248E9F8200F80486 /* AudioAnalyser.swift in Sources */,
 				814ADAF3248E9FDA00F80486 /* Sketchable.swift in Sources */,
 				814ADAFD248EB56900F80486 /* EmptySketch.swift in Sources */,
