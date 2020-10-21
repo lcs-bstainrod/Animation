@@ -9,7 +9,7 @@
 import Foundation
 import CanvasGraphics
 
-class FiveCircles: NSObject, Sketchable {
+class fiveCircles: NSObject, Sketchable {
     
     
     
@@ -19,7 +19,7 @@ class FiveCircles: NSObject, Sketchable {
     
     // Position of circle
     var x: Int
-    var x1: Int
+    
     // This function runs once
     override init() {
         
