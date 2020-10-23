@@ -26,7 +26,7 @@ class Fourcorners: NSObject, Sketchable {
         // Set starting position
    
         //slow down animation
-        canvas.framesPerSecond = 25
+        canvas.framesPerSecond = 35
        
       
     }
