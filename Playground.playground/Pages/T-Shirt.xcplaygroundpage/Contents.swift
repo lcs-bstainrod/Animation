@@ -121,7 +121,7 @@ canvas.drawLine(from: Point(x: 350, y: 375), to: Point(x: 350, y: 400))
 canvas.drawLine(from: Point(x: 350, y: 400), to: Point(x: 425, y: 400))
 canvas.drawLine(from: Point(x: 425, y: 400), to: Point(x: 425, y: 375))
 canvas.drawLine(from: Point(x: 450, y: 375), to: Point(x: 450, y: 325))
-canvas.copyToClipboard()
+
 
 /*:
  ## Show the Assistant Editor
