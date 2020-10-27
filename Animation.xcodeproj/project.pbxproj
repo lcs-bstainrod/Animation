@@ -32,6 +32,7 @@
 		A24652B8253B33C7001807EF /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652B7253B33C7001807EF /* Spots.swift */; };
 		A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */; };
 		A24652BF253F458C001807EF /* FiveCirclestwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652BE253F458C001807EF /* FiveCirclestwo.swift */; };
+		A284C61325487DAD006869E7 /* Skittlesanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A284C61225487DAD006869E7 /* Skittlesanimation.swift */; };
 		A2DE869025420B9B00508D0A /* Fourcourners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE868F25420B9B00508D0A /* Fourcourners.swift */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		A24652B7253B33C7001807EF /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FiveCirclesattempt#1.swift"; sourceTree = "<group>"; };
 		A24652BE253F458C001807EF /* FiveCirclestwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveCirclestwo.swift; sourceTree = "<group>"; };
+		A284C61225487DAD006869E7 /* Skittlesanimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skittlesanimation.swift; sourceTree = "<group>"; };
 		A2DE868F25420B9B00508D0A /* Fourcourners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourcourners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 				A2DE868F25420B9B00508D0A /* Fourcourners.swift */,
 				A24652B42539D4A3001807EF /* MovingSquare.swift */,
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
+				A284C61225487DAD006869E7 /* Skittlesanimation.swift */,
 				A24652B7253B33C7001807EF /* Spots.swift */,
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
 			);
@@ -498,6 +501,7 @@
 				A24652BF253F458C001807EF /* FiveCirclestwo.swift in Sources */,
 				81064A0A1C130A10007ED524 /* AppDelegate.swift in Sources */,
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
+				A284C61325487DAD006869E7 /* Skittlesanimation.swift in Sources */,
 				A24652B52539D4A3001807EF /* MovingSquare.swift in Sources */,
 				814ADAF9248EB34900F80486 /* BasicSketch.swift in Sources */,
 				A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */,
