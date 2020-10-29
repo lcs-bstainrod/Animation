@@ -15,7 +15,7 @@ class skittles: NSObject, Sketchable {
     // NOTE: Every sketch must contain an object of type Canvas named 'canvas'
     //       Therefore, the line immediately below must always be present.
     var canvas: Canvas
-    
+    var R = Bool.random ()
     // This function runs once
     override init() {
         
@@ -49,6 +49,7 @@ class skittles: NSObject, Sketchable {
                     
                     //draw line
                     canvas.drawLine(from: Point(x: x, y: y), to: Point(x: x, y: y + 50))
+                    canvas.lineColor = Color(hue: R, saturation: R, brightness: R, alpha: R)
                 }
             }
             
