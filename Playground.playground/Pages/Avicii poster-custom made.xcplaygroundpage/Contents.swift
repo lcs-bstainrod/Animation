@@ -57,7 +57,7 @@ for x in stride(from: 0, through: 340, by:50) {
     for y in stride(from: 150, through: 50, by:-25){
         canvas.fillColor = aqua
         canvas.drawEllipse(at: Point(x: x, y: y), width: 3, height: 3)
-}
+    }
 }
 
 
@@ -68,14 +68,14 @@ canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 50)
 
 var vertices1: [Point] = [ ] 
 for x in stride(from: 0, through: 400, by: 100){
-
-
-vertices1.append(Point (x: 50 + x , y: 0)) // start
+    
+    
+    vertices1.append(Point (x: 50 + x , y: 0)) // start
     vertices1.append(Point (x: 100 + x, y: 50 ))
     vertices1.append(Point (x: 50 + x, y: 100))
     vertices1.append(Point (x: x, y: 50)) // end
-
-
+    
+    
     canvas.drawCustomShape(with: vertices1)
     canvas.drawCustomShape(with: vertices1 )
 }
@@ -120,6 +120,18 @@ canvas.drawText(message: "3pm-3am", at: Point(x: 280, y: 120), size: 10, kerning
 //black banner
 canvas.fillColor = black
 canvas.drawRectangle(at: Point(x: 0, y: 350), width: 400, height: 300)
+//design for stars
+canvas.lineColor = white
+canvas.defaultLineWidth = 4
+
+for y in stride(from: 450, to: 600, by: Int.random(in:30...80)) {
+    for x in stride(from: 0, to: 400, by: Int.random(in:45...96)){
+canvas.fillColor = white
+
+canvas.drawLine(from: Point(x: x, y: y), to: Point(x: x, y: y))
+
+}
+}
 // moon
 canvas.fillColor = white
 canvas.drawEllipse(at: Point(x: 350, y: 550), width: 40, height: 40)
@@ -130,39 +142,29 @@ canvas.drawEllipse(at: Point(x: 336, y: 542), width: 8, height: 8)
 canvas.drawEllipse(at: Point(x: 357, y: 560), width: 7, height: 7)
 canvas.drawEllipse(at: Point(x: 340, y: 560), width: 5, height: 5)
 canvas.drawEllipse(at: Point(x: 359, y: 538), width: 7, height: 7)
-// Draw axis with a scale
-canvas.textColor = limegreen
-canvas.lineColor = limegreen
-canvas.drawAxes(withScale: true, by: 50)
+
+canvas.drawShapesWithBorders = false
+
 //orange pyramids top half
-canvas.fillColor = aqua
+canvas.fillColor = red
 canvas.drawRectangle(at: Point(x: 0, y: 350), width: 400, height: 50)
 var vertices2: [Point] = [ ]
 for x in stride(from: 0, through: 400, by: 100){
-
     
-vertices2.append(Point (x: 50 + x , y: 350)) // start
+    
+    vertices2.append(Point (x: 50 + x , y: 350)) // start
     vertices2.append(Point (x: 100 + x, y: 400 ))
     vertices2.append(Point (x: 50 + x, y: 450))
     vertices2.append(Point (x: x, y: 400)) // end
-
-
+    
+    
     canvas.drawCustomShape(with: vertices2)
     
 }
-canvas.fillColor = orange
+canvas.fillColor = almostBlack
 canvas.drawCustomShape(with: vertices2)
-canvas.drawShapesWithFill = true
+//canvas.drawShapesWithFill = true
 
-canvas.fillColor = Yellow
-canvas.drawShapesWithFill = true
-var vertices3: [Point] = [ ] //empty list of vertices
-for step in stride(from: 5, through: 350, by: Int.random(in:35...55)) {
-    vertices3.append(Point (x: 5 , y: 550)) // start
-        vertices3.append(Point (x: 10, y: 555 ))
-        vertices3.append(Point (x: 5, y: 560))
-        vertices3.append(Point (x: 0, y: 555)) // end
-    
-    canvas.drawCustomShape(with: vertices3)
-}
 
+
+//sponsored by noah. 
