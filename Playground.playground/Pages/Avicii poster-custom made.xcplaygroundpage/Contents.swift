@@ -5,7 +5,7 @@ import PlaygroundSupport
 import CanvasGraphics
 
 // Create canvas
-let canvas = Canvas(width: preferredWidth, height: preferredHeight)
+let canvas = Canvas(width: preferredWidth, height: preferredHeight, quality: .Ultra)
 
 // Show the canvas in the playground's live view
 PlaygroundPage.current.liveView = canvas
@@ -164,7 +164,7 @@ for x in stride(from: 0, through: 400, by: 100){
 canvas.fillColor = almostBlack
 canvas.drawCustomShape(with: vertices2)
 //canvas.drawShapesWithFill = true
+canvas.copyToClipboard()
 
 
-
-//sponsored by noah. 
+//sponsored by noah.
