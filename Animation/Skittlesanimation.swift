@@ -49,7 +49,7 @@ class skittles: NSObject, Sketchable {
                     
                     //draw line
                     canvas.drawLine(from: Point(x: x, y: y), to: Point(x: x, y: y + 50))
-                    canvas.lineColor = Color(hue: R, saturation: R, brightness: R, alpha: R)
+//                    canvas.lineColor = Color(hue: R, saturation: R, brightness: R, alpha: R)
                 }
             }
             
