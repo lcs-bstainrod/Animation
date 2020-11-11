@@ -30,6 +30,8 @@
 		81F935042476B0E000CD75D8 /* Tortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F935032476B0E000CD75D8 /* Tortoise.swift */; };
 		A218955025599DFD0044AEBA /* Spiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218954F25599DFD0044AEBA /* Spiral.swift */; };
 		A21895532559A0750044AEBA /* IndividualSpiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21895522559A0750044AEBA /* IndividualSpiral.swift */; };
+		A2189556255B66F50044AEBA /* TrippySpiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2189555255B66F50044AEBA /* TrippySpiral.swift */; };
+		A2189559255B6AF70044AEBA /* Expermient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2189558255B6AF70044AEBA /* Expermient.swift */; };
 		A24652B52539D4A3001807EF /* MovingSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652B42539D4A3001807EF /* MovingSquare.swift */; };
 		A24652B8253B33C7001807EF /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652B7253B33C7001807EF /* Spots.swift */; };
 		A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */; };
@@ -122,6 +124,8 @@
 		81F935032476B0E000CD75D8 /* Tortoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortoise.swift; sourceTree = "<group>"; };
 		A218954F25599DFD0044AEBA /* Spiral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiral.swift; sourceTree = "<group>"; };
 		A21895522559A0750044AEBA /* IndividualSpiral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualSpiral.swift; sourceTree = "<group>"; };
+		A2189555255B66F50044AEBA /* TrippySpiral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrippySpiral.swift; sourceTree = "<group>"; };
+		A2189558255B6AF70044AEBA /* Expermient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expermient.swift; sourceTree = "<group>"; };
 		A24652B42539D4A3001807EF /* MovingSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSquare.swift; sourceTree = "<group>"; };
 		A24652B7253B33C7001807EF /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		A24652BA253DCBA9001807EF /* FiveCirclesattempt#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FiveCirclesattempt#1.swift"; sourceTree = "<group>"; };
@@ -184,11 +188,13 @@
 				A2DE868F25420B9B00508D0A /* Fourcourners.swift */,
 				A24652B42539D4A3001807EF /* MovingSquare.swift */,
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
-				A218954F25599DFD0044AEBA /* Spiral.swift */,
 				A284C61225487DAD006869E7 /* Skittlesanimation.swift */,
 				A24652B7253B33C7001807EF /* Spots.swift */,
 				A21895522559A0750044AEBA /* IndividualSpiral.swift */,
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
+				A2189555255B66F50044AEBA /* TrippySpiral.swift */,
+				A218954F25599DFD0044AEBA /* Spiral.swift */,
+				A2189558255B6AF70044AEBA /* Expermient.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -506,6 +512,8 @@
 				A218955025599DFD0044AEBA /* Spiral.swift in Sources */,
 				81064A1C1C132DA2007ED524 /* Sketch.swift in Sources */,
 				A21895532559A0750044AEBA /* IndividualSpiral.swift in Sources */,
+				A2189559255B6AF70044AEBA /* Expermient.swift in Sources */,
+				A2189556255B66F50044AEBA /* TrippySpiral.swift in Sources */,
 				A24652BF253F458C001807EF /* FiveCirclestwo.swift in Sources */,
 				81064A0A1C130A10007ED524 /* AppDelegate.swift in Sources */,
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,

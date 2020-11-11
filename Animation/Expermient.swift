@@ -9,7 +9,7 @@ import Foundation
 import CanvasGraphics
 
 // NOTE: This is a completely empty sketch; it can be used as a template.
-class Spiral: NSObject, Sketchable {
+class Trippy2: NSObject, Sketchable {
     
 
     // NOTE: Every sketch must contain an object of type Canvas named 'canvas'
@@ -26,31 +26,46 @@ class Spiral: NSObject, Sketchable {
     var lastPoint6: Point
     var lastPoint7: Point
     var lastPoint8: Point
-    // add one spiral
-            var spiral: IndividualSpiral
+
     // This function runs once
     override init() {
         
         // Create canvas object – specify size
-        canvas = Canvas(width: 1000, height: 1000)
+        canvas = Canvas(width: 1500, height: 850)
                 
-            // give the one spiral a starting angle of rotation
-        spiral = IndividualSpiral(angleOffset: 0)
+
+        // Set the starting position in the middle of the canvas
+        lastPoint1 = Point(x: 0, y: 0)
+        lastPoint2 = Point(x: 0, y: 0)
+        lastPoint3 = Point(x: 0, y: 0)
+        lastPoint4 = Point(x: 0, y: 0)
+        lastPoint5 = Point(x: 0, y: 0)
+        lastPoint6 = Point(x: 0, y: 0)
+        lastPoint7 = Point(x: 0, y: 0)
+        lastPoint8 = Point(x: 0, y: 0)
         
         // Speed
-        canvas.framesPerSecond = 80
+        canvas.framesPerSecond = 250
     }
     
 
     // This function runs repeatedly, forever, to create the animated effect
     func draw() {
-        canvas.lineColor = Color(hue:Int.random(in:0...360), saturation: 90, brightness: 100, alpha: 100)
-
+        
+        //canvas.lineColor = Color(hue: Int.random(in: 0...360), saturation: Int.random(in: 75...100), brightness: Int.random(in: 0...100), alpha: Int.random(in: 0...100))
+         //canvas.lineColor = Color(hue: Int.random(in: 220...275), saturation: Int.random(in: 75...100), brightness: Int.random(in: 65...100), alpha: Int.random(in: 0...100))
+       // purple
+       canvas.lineColor = Color(hue: Int.random(in: 250...330), saturation: Int.random(in: 90...100), brightness: Int.random(in: 0...100), alpha: Int.random(in: 0...100))
+       //canvas.lineColor = Color(hue: Int.random(in: 220...350), saturation: 100, brightness: 100, alpha: 40)
+        //canvas.lineColor = Color(hue: Int.random(in: 0...360), saturation: Int.random(in: 75...100), brightness: Int.random(in: 80...100), alpha: Int.random(in: 0...100))
+        
+       // blue  228, 100, 40
         // What frame are we on?
 //        print(canvas.frameCount)
-        
-        canvas.defaultLineWidth = 35
-        
+       // canvas.defaultLineWidth = 80
+       // canvas.defaultLineWidth = 250
+        canvas.defaultLineWidth = 1000
+        //canvas.defaultLineWidth = 125
         // Set the origin to be the middle of the canvas
         canvas.translate(to: Point(x: canvas.width / 2, y: canvas.height / 2))
         
@@ -273,13 +288,11 @@ class Spiral: NSObject, Sketchable {
 
             // Set the "new" last point, now that the line is drawn
             lastPoint8 = nextPoint
-       
-            //update position of that one spiral
-            spiral.update(on: canvas)
+
         }
         
 
     }
-   
+    
 
 }
