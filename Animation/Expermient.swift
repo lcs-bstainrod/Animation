@@ -55,16 +55,17 @@ class Trippy2: NSObject, Sketchable {
         //canvas.lineColor = Color(hue: Int.random(in: 0...360), saturation: Int.random(in: 75...100), brightness: Int.random(in: 0...100), alpha: Int.random(in: 0...100))
          //canvas.lineColor = Color(hue: Int.random(in: 220...275), saturation: Int.random(in: 75...100), brightness: Int.random(in: 65...100), alpha: Int.random(in: 0...100))
        // purple
-       canvas.lineColor = Color(hue: Int.random(in: 250...330), saturation: Int.random(in: 90...100), brightness: Int.random(in: 0...100), alpha: Int.random(in: 0...100))
-       //canvas.lineColor = Color(hue: Int.random(in: 220...350), saturation: 100, brightness: 100, alpha: 40)
-        //canvas.lineColor = Color(hue: Int.random(in: 0...360), saturation: Int.random(in: 75...100), brightness: Int.random(in: 80...100), alpha: Int.random(in: 0...100))
+      // canvas.lineColor = Color(hue: Int.random(in: 250...330), saturation: Int.random(in: 90...100), brightness: Int.random(in: 0...100), alpha: Int.random(in: 0...100))
+     // canvas.lineColor = Color(hue: Int.random(in: 220...350), saturation: 100, brightness: 100, alpha: 40)
+        canvas.lineColor = Color(hue: Int.random(in: 220...280), saturation: 100, brightness: 100, alpha: 40)
+      // canvas.lineColor = Color(hue: Int.random(in: 0...360), saturation: Int.random(in: 75...100), brightness: Int.random(in: 80...100), alpha: Int.random(in: 0...100))
         
        // blue  228, 100, 40
         // What frame are we on?
 //        print(canvas.frameCount)
-       // canvas.defaultLineWidth = 80
+        canvas.defaultLineWidth = 80
        // canvas.defaultLineWidth = 250
-        canvas.defaultLineWidth = 1000
+        //canvas.defaultLineWidth = 1000
         //canvas.defaultLineWidth = 125
         // Set the origin to be the middle of the canvas
         canvas.translate(to: Point(x: canvas.width / 2, y: canvas.height / 2))
