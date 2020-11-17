@@ -17,5 +17,6 @@ class Sketch: NSObject {
 //    var currentDrawing = AudioInputSketch()
 //    var currentDrawing = StaticSketch()
    // var currentDrawing = Trippy1()
-    var currentDrawing = Trippy2()
+    //var currentDrawing = Trippy2()
+    var currentDrawing = FunctionArt1()
 }

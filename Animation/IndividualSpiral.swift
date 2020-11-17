@@ -12,7 +12,7 @@ import CanvasGraphics
 //Define a class that creates a spiral
 // - a "class" is just a way to group data (properties) together
 //with behaviour (thing that we want to change)
-class IndividualSpiral  {
+class IndividualSpiral1  {
     
 
 //1. Properties
