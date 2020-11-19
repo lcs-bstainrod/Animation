@@ -19,4 +19,5 @@ class Sketch: NSObject {
    // var currentDrawing = Trippy1()
     //var currentDrawing = Trippy2()
     var currentDrawing = FunctionArt1()
+   // var currentDrawing = MathFunction()
 }

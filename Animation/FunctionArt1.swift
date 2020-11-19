@@ -23,17 +23,18 @@ class FunctionArt1: NSObject, Sketchable {
     override init() {
         
         // Create canvas object – specify size
-        canvas = Canvas(width: 500, height: 500)
+        canvas = Canvas(width: 800, height: 800)
              
         // Initialize many functions
         for i in 1...20 {
             
             // Create the function
-            let newFunction = MathFunction(a: 1.0,
+            let newFunction = MathFunction(a: 4.0,
                                            k: 5.0,
-                                           d: CGFloat(i) * 25 - CGFloat(canvas.width / 2),
-                                           c: 0,
-                                           canvas: canvas)
+                                           d: CGFloat(i) * 35 - CGFloat(canvas.width / 2),
+                                           c: -200,
+                                           canvas: canvas,
+                                           type: .quadratic)
             
             // Add it to the list
             functions.append(newFunction)
@@ -49,15 +50,18 @@ class FunctionArt1: NSObject, Sketchable {
 
         // What frame are we on?
 //        print(canvas.frameCount)
+       
+        canvas.defaultLineWidth = 12
+       
         
-        canvas.defaultLineWidth = 1
         
         // Set the origin to be the middle of the canvas
         canvas.translate(to: Point(x: canvas.width / 2, y: canvas.height / 2))
 
         // Update the position of all functions
         for function in functions {
-            function.update(on: canvas)
+            function.update(on: canvas,
+                            usingInputValue: canvas.frameCount)
         }
 
     
