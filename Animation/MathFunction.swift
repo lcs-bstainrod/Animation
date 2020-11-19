@@ -68,7 +68,7 @@ class MathFunction {
         if x > 0 && x < canvas.width {
 
             
-            let nextX: CGFloat = CGFloat(canvas.frameCount - canvas.width / 2)
+            let nextX: CGFloat = CGFloat( x - canvas.width / 2)
           
            // determine the next y position
             var nextY: CGFloat = 0
