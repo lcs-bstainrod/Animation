@@ -39,7 +39,11 @@
 		A284C61325487DAD006869E7 /* Skittlesanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A284C61225487DAD006869E7 /* Skittlesanimation.swift */; };
 		A2B39B4125642F8F00F42937 /* MathFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B39B4025642F8F00F42937 /* MathFunction.swift */; };
 		A2B39B442564355700F42937 /* FunctionArt1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B39B432564355700F42937 /* FunctionArt1.swift */; };
+		A2B39B482568026B00F42937 /* FunctionArt2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B39B472568026B00F42937 /* FunctionArt2.swift */; };
+		A2B39B4B2568064600F42937 /* Experimentskittles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B39B4A2568064600F42937 /* Experimentskittles.swift */; };
+		A2B39B57256D6BDF00F42937 /* Trippy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B39B56256D6BDF00F42937 /* Trippy2.swift */; };
 		A2DE869025420B9B00508D0A /* Fourcourners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE868F25420B9B00508D0A /* Fourcourners.swift */; };
+		A2E589E3257139E400A12FC0 /* MathFunction4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E589E2257139E400A12FC0 /* MathFunction4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,7 +139,11 @@
 		A284C61225487DAD006869E7 /* Skittlesanimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skittlesanimation.swift; sourceTree = "<group>"; };
 		A2B39B4025642F8F00F42937 /* MathFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFunction.swift; sourceTree = "<group>"; };
 		A2B39B432564355700F42937 /* FunctionArt1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionArt1.swift; sourceTree = "<group>"; };
+		A2B39B472568026B00F42937 /* FunctionArt2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionArt2.swift; sourceTree = "<group>"; };
+		A2B39B4A2568064600F42937 /* Experimentskittles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experimentskittles.swift; sourceTree = "<group>"; };
+		A2B39B56256D6BDF00F42937 /* Trippy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trippy2.swift; sourceTree = "<group>"; };
 		A2DE868F25420B9B00508D0A /* Fourcourners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourcourners.swift; sourceTree = "<group>"; };
+		A2E589E2257139E400A12FC0 /* MathFunction4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFunction4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +198,8 @@
 				814ADAFA248EB45F00F80486 /* AudioInputSketch.swift */,
 				A24652BE253F458C001807EF /* FiveCirclestwo.swift */,
 				A2B39B4025642F8F00F42937 /* MathFunction.swift */,
+				A2E589E2257139E400A12FC0 /* MathFunction4.swift */,
+				A2B39B472568026B00F42937 /* FunctionArt2.swift */,
 				A2DE868F25420B9B00508D0A /* Fourcourners.swift */,
 				A24652B42539D4A3001807EF /* MovingSquare.swift */,
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
@@ -199,6 +209,8 @@
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
 				A2189555255B66F50044AEBA /* TrippySpiral.swift */,
 				A218954F25599DFD0044AEBA /* Spiral.swift */,
+				A2B39B4A2568064600F42937 /* Experimentskittles.swift */,
+				A2B39B56256D6BDF00F42937 /* Trippy2.swift */,
 				A2189558255B6AF70044AEBA /* Expermient.swift */,
 				A2B39B432564355700F42937 /* FunctionArt1.swift */,
 			);
@@ -514,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B39B57256D6BDF00F42937 /* Trippy2.swift in Sources */,
 				81064A0C1C130A10007ED524 /* ViewController.swift in Sources */,
 				A218955025599DFD0044AEBA /* Spiral.swift in Sources */,
 				81064A1C1C132DA2007ED524 /* Sketch.swift in Sources */,
@@ -527,15 +540,18 @@
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
 				A284C61325487DAD006869E7 /* Skittlesanimation.swift in Sources */,
 				A24652B52539D4A3001807EF /* MovingSquare.swift in Sources */,
+				A2B39B482568026B00F42937 /* FunctionArt2.swift in Sources */,
 				814ADAF9248EB34900F80486 /* BasicSketch.swift in Sources */,
 				A24652BB253DCBA9001807EF /* FiveCirclesattempt#1.swift in Sources */,
 				814ADAFB248EB45F00F80486 /* AudioInputSketch.swift in Sources */,
 				A24652B8253B33C7001807EF /* Spots.swift in Sources */,
 				A2DE869025420B9B00508D0A /* Fourcourners.swift in Sources */,
+				A2E589E3257139E400A12FC0 /* MathFunction4.swift in Sources */,
 				814ADAF1248E9F8200F80486 /* AudioAnalyser.swift in Sources */,
 				814ADAF3248E9FDA00F80486 /* Sketchable.swift in Sources */,
 				814ADAFD248EB56900F80486 /* EmptySketch.swift in Sources */,
 				814ADAFF248EB5E300F80486 /* StaticSketch.swift in Sources */,
+				A2B39B4B2568064600F42937 /* Experimentskittles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

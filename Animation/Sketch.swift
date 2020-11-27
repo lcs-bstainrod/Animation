@@ -18,6 +18,11 @@ class Sketch: NSObject {
 //    var currentDrawing = StaticSketch()
    // var currentDrawing = Trippy1()
     //var currentDrawing = Trippy2()
-    var currentDrawing = FunctionArt1()
+    //var currentDrawing = FunctionArt1()
+    var currentDrawing = FunctionArt2()
    // var currentDrawing = MathFunction()
+    //var currentDrawing = skittles()
+    //var currentDrawing = FunctionArt3()
+    //var currentDrawing = Trippy2p()
+    //var currentDrawing = FunctionArt4()
 }
